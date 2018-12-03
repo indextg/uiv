@@ -46,10 +46,12 @@
             @mouseenter="currentActive=-1">
             <a role="button" v-if="isItemSelected(_item)">
               <b>{{_item[labelKey]}}</b>
+               <span style="float: right;width:13px;height:13px;border:1px solid #ccc"></span>
               <span v-if="selectedIcon" :class="selectedIconClasses"></span>
             </a>
             <a role="button" v-else>
               <span>{{_item[labelKey]}}</span>
+                 <input type="checkbox" style="float: right">
             </a>
           </li>
         </template>
