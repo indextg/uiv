@@ -3547,7 +3547,7 @@ var MultiSelect = { render: function render() {
               _vm.toggle(_item);
             }, "mouseenter": function mouseenter($event) {
               _vm.currentActive = -1;
-            } } }, [_vm.isItemSelected(_item) ? _c('a', { attrs: { "role": "button" } }, [_c('b', [_vm._v(_vm._s(_item[_vm.labelKey]))]), _vm._v(" "), _c('span', { staticStyle: { "float": "right", "width": "15px", "height": "15px", "border": "1px solid #ccc；position: relative", "right": "14px", "top": "2px" } }), _vm._v(" "), _vm.selectedIcon ? _c('span', { class: _vm.selectedIconClasses }) : _vm._e()]) : _c('a', { attrs: { "role": "button" } }, [_c('span', [_vm._v(_vm._s(_item[_vm.labelKey]))]), _vm._v(" "), _c('span', { staticStyle: { "float": "right", "width": "15px", "height": "15px", "border": "1px solid #ccc；position: relative", "right": "14px", "top": "2px" } })])])];
+            } } }, [_vm.isItemSelected(_item) ? _c('a', { attrs: { "role": "button" } }, [_c('b', [_vm._v(_vm._s(_item[_vm.labelKey]))]), _vm._v(" "), _c('span', { staticStyle: { "float": "right", "width": "15px", "height": "15px", "border": "1px solid #ccc", "position": "relative", "right": "14px", "top": "2px" } }), _vm._v(" "), _vm.selectedIcon ? _c('span', { class: _vm.selectedIconClasses }) : _vm._e()]) : _c('a', { attrs: { "role": "button" } }, [_c('span', [_vm._v(_vm._s(_item[_vm.labelKey]))]), _vm._v(" "), _c('span', { staticStyle: { "float": "right", "width": "15px", "height": "15px", "border": "1px solid #ccc", "position": "relative", "right": "14px", "top": "2px" } })])])];
       })];
     })], 2)], 2);
   }, staticRenderFns: [],

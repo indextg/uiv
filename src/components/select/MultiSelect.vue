@@ -46,12 +46,12 @@
             @mouseenter="currentActive=-1">
             <a role="button" v-if="isItemSelected(_item)">
               <b>{{_item[labelKey]}}</b>
-              <span style="float: right;width:15px;height:15px;border:1px solid #ccc；position: relative;right:14px;top:2px"></span>
+              <span style="float: right;width:15px;height:15px;border:1px solid #ccc;position:relative;right:14px;top:2px"></span>
               <span v-if="selectedIcon" :class="selectedIconClasses"></span>
             </a>
             <a role="button" v-else>
               <span>{{_item[labelKey]}}</span>
-			  <span style="float: right;width:15px;height:15px;border:1px solid #ccc；position: relative;right:14px;top:2px"></span>
+			  <span style="float: right;width:15px;height:15px;border:1px solid #ccc;position:relative;right:14px;top:2px"></span>
             </a>
           </li>
         </template>
